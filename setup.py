@@ -28,5 +28,6 @@ setup(
     author_email="pawel.sobkowiak@gmail.com",
     license="GPLv3",
     description="A Descriptor class implementing weakref properties in Python",
+    keywords=['weakref', 'property', 'descriptor'],
     zip_safe=True,
 )
