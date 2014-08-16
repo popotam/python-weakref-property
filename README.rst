@@ -33,7 +33,8 @@ Example:
         >>> del a
         >>> gc.collect()  # force gc to collect `a` object
         0
-        >>> obj.value
+        >>> print(obj.value)
+        None
 
     You can also delete the value completelly::
 
